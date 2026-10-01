@@ -14,7 +14,6 @@
         Main
     </title>
     <link rel="stylesheet" href="css/main.css" type="text/css">
-    <script src="js/search.js"></script>
 </head>
 
 <body>
@@ -22,16 +21,13 @@
     <table>
 
         <caption>
-            <input type="text" id="search_input" placeholder="Search">
+            <button onclick="window.open('/','_self')">
+                io
+            </button>
         </caption>
 
         <thead>
             <tr>
-                <th>
-                    <button onclick="window.open('/','_self')">
-                        io
-                    </button>
-                </th>
                 <th>
                     <button style="color: blue;" onclick="window.open('/Markdown-Test','_self')">
                         repo
@@ -42,11 +38,6 @@
                         404
                     </button>
                 </th>
-                <th>
-                    <button onclick="window.open('/Markdown-Test/ts','_self')">
-                        ts
-                    </button>
-                </th>
             </tr>
         </thead>
 
@@ -54,10 +45,7 @@
 
             <tr>
                 <td>
-                    ts
-                </td>
-                <td>
-                    <button onclick="window.open('/Markdown-Test/README')">
+                    <button onclick="window.open('/Markdown-Test/README.md','_self')">
                         jump
                     </button>
                 </td>
